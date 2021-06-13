@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(8, 0, 39);
+  background-image: url(../img/background.jpg);
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
