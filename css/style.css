@@ -1,9 +1,31 @@
 body {
   background-color: rgb(8, 0, 39);
   background-image: url(../img/background.jpg);
+  background-size: 100%;
   color: white;
+}
+
+a{
+  color: white;
+}
+
+main{
+  margin: 2%;
 }
 
 h1 {
   text-align: center;
 }
+
+.img{
+  margin-left: 50px;
+  width: 350px;
+  max-height: 150px;
+  margin-bottom: 30px;
+  
+}
+
+/* section{
+  background-color: #05002e60;
+  width: 450px;
+} */
