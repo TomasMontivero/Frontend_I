@@ -1,0 +1,25 @@
+*{
+    
+    color: black;
+}
+
+#banner{
+    background-image: url(../img/bg-business.jpg);
+    max-height: 500px;
+    /* background-size: cover; */
+}
+
+#profileImg{
+    max-height: 200px;
+    size: 100px;
+    margin-left: 20%;
+}
+
+main section{
+    background-color: #FEFBEA;
+    margin-left: 10%;
+}
+
+ul{
+    margin-left: 2%;
+}

@@ -1,0 +1,104 @@
+/* ------------------------------------------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------------------------ */
+/**** header ****/
+
+#barraSuperior{
+    background-color: black;
+    color: white;
+}
+
+/**** nav menu ****/
+#menuPrincipal{
+    background-color: #F0A83E;
+}
+
+nav{
+    position: absolute;
+    right: 5%;
+    color:white;
+}
+
+nav>a{
+    color: white;
+}
+
+/* ------------------------------------------------------------ */
+/**** main content ****/
+main{
+    color: #3C2313;
+}
+
+#banner{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    height: 409px;
+    text-align: center;
+}
+
+#saludo{
+    font-size: 30px;
+    background-color: #ffffff;
+}
+
+#comederos{
+    color: white;
+    background-color: #F0A83E;
+}
+
+#banner>p{
+    position:relative; 
+}
+
+#titulo{
+    text-align: center;
+}
+
+#titulo>.fa-paw{
+    color: #F0A83E;
+}
+
+#titulo>a{
+    color: #3C2313;
+}
+
+#productos>article{
+    background-color: #FBFAF6;
+    font-weight: 500;
+}
+
+.price{
+    color: #F0A83E;
+}
+
+/* ------------------------------------------------------------ */
+/**** footer ****/
+footer{
+    color: white;
+}
+
+#contactanos>ul>li{
+    background-color: #3C2313;
+}
+
+#contactanos>h2{
+    color: #3C2313;
+}
+
+#newsletter{
+    background-color: #F0A83E;
+}
+
+#contacto{
+    background-color: #3C2313;
+}
+
+#copyright{
+    background-color: #222222;
+    text-align: center;
+}
