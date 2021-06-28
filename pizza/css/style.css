@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* ------------------------------------------------------------ */
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+*>a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-content: space-between; */
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+/* ------------------------------------------------------------ */
+/***************************** HEADER ***************************/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #222222;
+    padding: 10px 20px;
+}
+
+/**** LOGO ****/
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px;
+}
+
+.logo>section>:nth-child(1) {
+    color: #39B24A;
+}
+.logo>section>:nth-child(2) {
+    color: white;
+}
+.logo>section>:nth-child(3) {
+    color: #FC200C;
+}
+
+/**** NAV ****/
+nav{
+    display: flex;
+    gap: 13px;
+}
+
+nav>a{
+    color: #F3F3F3;
+}
+
+/* ------------------------------------------------------------ */
+/************************* MAIN CONTENT *************************/
+
+/**** MAIN ****/
+main{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    /* background-color: #E5E5E5; */ /* Por alguna razón cubre solo el espacio entre los rectangulos izq y der. Lo reemplazo con el background-color en el body */
+}
+
+main>section{
+    position: relative;
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+}
+
+/**** LEFT ****/
+#main-left>p{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    /* z-index: 10; */
+}
+
+#main-left>p>:nth-child(1){
+    color: #FC200C;
+}
+#main-left>p>:nth-child(2){
+    color: white;
+}
+#main-left>p>:nth-child(3){
+    color: #FC200C;
+}
+
+/**** RIGHT ****/
+#main-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    gap: 58px;
+}
+
+#main-right>p{
+    color: #FC200C;
+    font-size: 24px;
+    margin-top: 26px;
+}
+
+#main-right>section{ /* top<->img */ 
+    display: flex;
+    align-items: center;
+    gap: 101px;
+    font-weight: 700;
+}
+
+#top5title{
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+#top5list{
+    font-size: 16px;
+    margin: 20px;
+}
+
+#top5list>li{
+    margin: 10px 0px;
+}
+
+#main-right>img{
+    height: 129px;
+    width: 92px;
+}
+
+
+/* ------------------------------------------------------------ */
+/***************************** FOOTER ***************************/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #222222;
+    padding: 19px 0px;
+}
+
+footer>section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 20px;
+}
+
+footer>section>a{
+    color: #F3F3F3;
+}
+
+footer>.logo{
+    margin-right: 42px;
+}
