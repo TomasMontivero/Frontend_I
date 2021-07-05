@@ -205,7 +205,7 @@ border-radius: 15px;
     display: flex;
     justify-content: space-between;
     background-color: #F0A83E;
-    height: 60px;
+    /* height: 60px; */
 }
 
 #newsletter>:nth-child(1) { /* Texto a la ezquierda */
@@ -226,6 +226,7 @@ border-radius: 15px;
     display: flex;
     align-items: center;
     font-size: 9px;
+    margin: 10px 0px 10px 15px;
 }
 
 #newsletter>:nth-child(2)>:nth-child(1) {
@@ -303,4 +304,49 @@ border-radius: 15px;
     font-size: 10px;
     padding: 4px;
     font-weight: 700;
+}
+
+/* ------------------------------------------------------------ */
+/****   MEDIA QUERY    ****/
+
+@media screen and (max-width: 768px) { 
+    #barraSuperior{
+        display: none;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    nav::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        font-size: 1.5rem;
+        content: "\f0c9";
+    }
+
+    #banner>:nth-child(1){  /* Texto: Es un placer tenerte aqui  */
+        font-size: 25px;
+    }
+
+    .productos{
+        flex-direction: column;
+    }
+
+    #newsletter{
+        flex-direction: column;
+    }
+
+    #newsletter>:nth-child(1)>img{
+        margin-left: 5px;
+}
+
+    #contacto{
+        flex-direction: column-reverse;
+    }
+
+    .logoInvertido{
+        margin-bottom: 19px;
+    }
+
 }
